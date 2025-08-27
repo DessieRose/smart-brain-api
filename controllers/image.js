@@ -4,7 +4,7 @@ const MODEL_ID = 'face-detection';
 const MODEL_VERSION_ID = '6dc7e46bc9124c5c8824be4822abe105';
 
 const returnClarifaiRequestOptions = (imageUrl) => {
-    const PAT = 'f9b43a7abf2948098740d43978a197b0';
+    const PAT = 'process.env.API_CLARIFAI';
     const USER_ID = 'natrose';
     const APP_ID = 'test';
     const IMAGE_URL = imageUrl;
